@@ -1,0 +1,44 @@
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+/* body {
+background-color: lightblue;
+}
+.blue {
+background-color: blue;
+}
+.movimento {
+background-color: red;
+} */
+body {
+    display: flex;
+    justify-content: center; /* Centra orizzontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Altezza della finestra del browser */
+    margin: 0; /* Rimuove i margini predefiniti */
+  }
+  
+.container {
+    height: 400px;
+    width: 400px;
+    background-color: bisque;
+    border: 1px solid black;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+.prima {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    margin-right: 10px;
+}
+.dopo {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    margin-left: 10px;
+}
